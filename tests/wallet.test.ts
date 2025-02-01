@@ -20,3 +20,7 @@ describe('Wallet', () => {
     expect(() => wallet.signTransaction(invalidTx)).to.throw('Invalid transaction');
   });
 });
+
+git add tests/wallet.test.ts
+git commit -m "Tests: Add unit tests for Wallet module"
+git push origin tests/add-wallet-module-coverage
